@@ -1,0 +1,35 @@
+.open frdb1
+
+CREATE TABLE stuphoto
+( 
+name varchar(50),
+photo varchar(50)
+);
+
+CREATE TABLE student
+(
+sid varchar(10) NOT NULL,
+sname varchar(40) NOT NULL,
+addr1 varchar(255),
+addr2 varchar(255),
+rollno varchar(12) NOT NULL,
+mobileid varchar(12) NOT NULL
+);
+
+CREATE TABLE attendance
+(
+sname varchar(40) NOT NULL,
+date varchar(20),
+time varchar(20)
+);
+
+pyuic4 person.ui -o person.py
+pyuic4 identify.ui -o identify.py
+pyuic4 face_detect.ui -o face_detect.py
+pyuic4 student.ui -o student.py
+
+.close frdb1
+
+
+
+
