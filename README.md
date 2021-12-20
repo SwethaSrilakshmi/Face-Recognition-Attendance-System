@@ -1,3 +1,5 @@
+# Face Recognition Attendance System
+
 This project aims at taking attendance of a class through a Face recognition based attendance system.
 
 This Project has three modules: 
